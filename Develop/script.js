@@ -29,7 +29,7 @@ if (numberOfChar < 8 || numberOfChar > 128) {
 return 'Choose a number value between 8 and 128 for your new password';
 
 } else if (isNaN(numberOfChar)) {
-  return 'You have chosen an invalid input of characters for your new password. Please choose a number between 8 and 128';
+  return;
 }
 else {
   confirm('Your password will contain ' + numberOfChar + ' characters');
