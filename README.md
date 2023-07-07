@@ -1,4 +1,4 @@
-# <Challenge03-Password-Generator-CarlosDLT>
+# Challenge03-Password-Generator-CarlosDLT
 
 On this challenge I was tasked to create a password generator.
 My goal was to use JavaScript to create a random password for the user to use as needed. 
@@ -9,7 +9,7 @@ The assignment taught me how to use ALERTS, PROMPTS, CONFIRM, how to use CONCAT 
 
 In order for the password generator to work correctly a certain criteria needs to be met to create a new password.
 
-# CRITERIA
+## CRITERIA
 
 * First, a number from 8 to 128 needs to be inputted into the 'PROMPT' pop-up.
 -- If nothing was type or a character that isn't a number between 8 and 128, the user will see a message to restart and input a number to be able to generate a new password. --
