@@ -28,7 +28,7 @@ numberOfChar = prompt('Please choose the amount of characters you want in your n
 if (numberOfChar < 8 || numberOfChar > 128) {
 return 'Choose a number value between 8 and 128 for your new password';
 
-} else if (isNaN(numberOfChar) || numberOfChar !== null) {
+} else if (isNaN(numberOfChar)) {
   return 'You have chosen an invalid input of characters for your new password. Please choose a number between 8 and 128';
 }
 else {
@@ -36,7 +36,7 @@ else {
 }
 
 
-// Meeting Criteria
+// Meeting Assignment Criteria
 
 // Number Criteria
 containNumbers = confirm('Would you like NUMBERS in your new password');
