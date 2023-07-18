@@ -26,7 +26,7 @@ function generatePassword() {
 numberOfChar = prompt('Please choose the amount of characters you want in your new password (8-128 character limit)');
 
 if (numberOfChar < 8 || numberOfChar > 128) {
-return 'Choose a number value between 8 and 128 for your new password';
+return 'Choose a number value between 8 and 128 for your new password.';
 
 } else if (isNaN(numberOfChar)) {
   return;
@@ -39,7 +39,7 @@ else {
 // Meeting Assignment Criteria
 
 // Number Criteria
-containNumbers = confirm('Would you like NUMBERS in your new password');
+containNumbers = confirm('Would you like NUMBERS in your new password?');
 if (containNumbers) {
   alert('The new password WILL contain NUMBERS.');
 }
@@ -57,7 +57,7 @@ else {
 }
 
 // Uppercase Criteria
-containUppercase = confirm('Would you like UPPERCASE characters in your new password');
+containUppercase = confirm('Would you like UPPERCASE characters in your new password?');
 if (containUppercase) {
   alert('The new password WILL contain UPPERCASE characters.');
 }

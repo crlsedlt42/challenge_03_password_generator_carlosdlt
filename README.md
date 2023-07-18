@@ -19,3 +19,5 @@ In order for the password generator to work correctly a certain criteria needs t
 
 * Third, once the user selects which criteria they want to include in their new password, the webpage will display a randomized password.
 
+![Screenshot for Password Generator](./Assets/PW.Generator.Screenshot.jpg)
+
